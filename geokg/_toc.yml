@@ -1,66 +1,56 @@
-- file: preface
-
-- part:  '第一篇 基础知识篇'
-  numbered: true  
-  sections:
-    #第一章 
-    - file: part00_basic/chapter01_00-content
-      sections:
-      - file: part00_basic/chapter01_01-Knowledge_Pyramy
-      - file: part00_basic/chapter01_02-
-    #第二章
-    - file: part00_basic/chapter02_00-content
-      sections:
-      - file: part00_basic/chapter02_01-Knowledge_Pyramy
-      - file: part00_basic/chapter02_02-
-
-- part:   '第二篇 知识表达篇'
-  numbered: true  
-  sections:
-    # 第四章
-    - file: part01_represation/content
-      sections:
-      - file: part01_represation/abc01
-      - file: part01_represation/abc02
-    
-
-- part:   '第三篇 知识获取篇'
-  numbered: true  
-  sections:
-    - file: part02_harvest/content
-      sections:
-       - file: part02_harvest/abc01
-       - file: part02_harvest/abc02
-
-
-- part:   '第四篇 知识管理篇'
-  numbered: true  
-  sections:
-    - file: part03_manage/content
-      sections:
-      - file: part03_manage/abc01
-      - file: part03_manage/abc02
-
-- part:   '第五篇 知识问答篇'
-  numbered: true  
-  sections:
-    - file: part04_answer/content
-      sections:
-      - file: part04_answer/abc01
-      - file: part04_answer/abc02
-
-- part:   '第六篇 知识推理篇'
-  numbered: true  
-  sections:
-    - file: part05_reasoning/content
-      sections:
-      - file: part05_reasoning/abc01
-      - file: part05_reasoning/abc02
-
-- part:   '第七篇 知识挖掘篇'
-  numbered: true  
-  sections:
-    - file: part06_mining/content
-      sections:
-      - file: part06_mining/abc01
-      - file: part06_mining/abc02
+format: jb-book
+root: preface
+parts:
+- caption: "\u7B2C\u4E00\u7BC7 \u57FA\u7840\u77E5\u8BC6\u7BC7"
+  numbered: true
+  chapters:
+  - file: part00_basic/chapter01_00-content
+    sections:
+    - file: part00_basic/chapter01_01-Knowledge_Pyramy
+    - file: part00_basic/chapter01_02-
+  - file: part00_basic/chapter02_00-content
+    sections:
+    - file: part00_basic/chapter02_01-Knowledge_Pyramy
+    - file: part00_basic/chapter02_02-
+- caption: "\u7B2C\u4E8C\u7BC7 \u77E5\u8BC6\u8868\u8FBE\u7BC7"
+  numbered: true
+  chapters:
+  - file: part01_represation/content
+    sections:
+    - file: part01_represation/abc01
+    - file: part01_represation/abc02
+- caption: "\u7B2C\u4E09\u7BC7 \u77E5\u8BC6\u83B7\u53D6\u7BC7"
+  numbered: true
+  chapters:
+  - file: part02_harvest/content
+    sections:
+    - file: part02_harvest/abc01
+    - file: part02_harvest/abc02
+- caption: "\u7B2C\u56DB\u7BC7 \u77E5\u8BC6\u7BA1\u7406\u7BC7"
+  numbered: true
+  chapters:
+  - file: part03_manage/content
+    sections:
+    - file: part03_manage/abc01
+    - file: part03_manage/abc02
+- caption: "\u7B2C\u4E94\u7BC7 \u77E5\u8BC6\u95EE\u7B54\u7BC7"
+  numbered: true
+  chapters:
+  - file: part04_answer/content
+    sections:
+    - file: part04_answer/abc01
+    - file: part04_answer/abc02
+- caption: "\u7B2C\u516D\u7BC7 \u77E5\u8BC6\u63A8\u7406\u7BC7"
+  numbered: true
+  chapters:
+  - file: part05_reasoning/content
+    sections:
+    - file: part05_reasoning/abc01
+    - file: part05_reasoning/abc02
+- caption: "\u7B2C\u4E03\u7BC7 \u77E5\u8BC6\u6316\u6398\u7BC7"
+  numbered: true
+  chapters:
+  - file: part06_mining/content
+    sections:
+    - file: part06_mining/abc01
+    - file: part06_mining/abc02
